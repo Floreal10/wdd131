@@ -8,14 +8,14 @@ header {
     padding-top: 10px;
 }
 
-.nav{
+nav{
     background: black;
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
 }
 
-.nav a {
+nav a {
     color: white;
     text-decoration: none;
 }
