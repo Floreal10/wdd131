@@ -60,6 +60,7 @@ main {
     display: grid;
     padding: 2rem;
     background: #b3c09d;
+    max-width: 100%;
 }
 
 .card1 {
