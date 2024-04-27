@@ -93,6 +93,10 @@ h2 {
     border-bottom: 1px solid;
 }
 
+.p-about-me img {
+    width: 150px;
+}
+
 .p-about-me p {
     padding-top: 20px;
 }
@@ -102,6 +106,10 @@ h2 {
     grid-template-columns: 0.5fr 1fr;
     padding-bottom: 20px;
     padding-left: 70px;
+}
+
+.p-chile img {
+    width: 200px;
 }
 
 .p-chile p {
