@@ -32,8 +32,8 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
 }
 
 nav a {
@@ -46,8 +46,7 @@ nav a {
 }
 
 nav a:hover {
-    color: black;
-	border: 1px solid black;
+	text-decoration:overline;
 }
 
 nav ul li {
