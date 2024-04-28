@@ -58,7 +58,7 @@ main {
     display: grid;
     padding: 2rem;
     background: #b3c09d;
-    max-width: 95%;
+    max-width: 1200px;
 }
 
 .card1 {
