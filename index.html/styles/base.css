@@ -45,14 +45,13 @@ nav a {
     font-family: var(--paragrph-font);
 }
 
+.navigation li {
+    flex: 1 1 100%;
+}
+
 .navigation a:hover {
 	color: black;
     border: 1px solid black;
-}
-
-.navigation li {
-    flex: 1 1 100%;
-
 }
 
 main {
