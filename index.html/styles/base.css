@@ -45,7 +45,7 @@ nav a {
     font-family: var(--paragrph-font);
 }
 
-nav a:hover {
+.navigation :hover {
 	color: black;
     border: 1px solid black;
 }
