@@ -26,7 +26,7 @@ header h1 {
     text-align: center;
 }
 
-.navigation {
+nav {
     background-color: var(--secondary-color);
     margin: 0 auto;
     display: flex;
@@ -45,11 +45,11 @@ nav a {
     font-family: var(--paragrph-font);
 }
 
-.navigation li {
+nav ul li {
     flex: 1 1 100%;
 }
 
-.navigation a:hover {
+nav a:hover {
 	color: black;
     border: 1px solid black;
 }
