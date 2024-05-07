@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.tenor-sans-regular {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #DCE2AA;
+    --secondary-color: #4B543B;
+    --accent1-color: #B4D2BA;
+    --accent2-color: lightgray;
+    
+    --heading-font: Tenor Sans, serif;
+    --paragrph-font: Tenor Sans , serif;
+}
+
+header {
+    background-color: var(--accent1-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation {
+    flex-direction: column;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.temple-fig {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5rem;
+}
+
+
+
+
+
+footer {
+    color: black;
+    background: var(--accent1-color);
+    text-align: center;
+    grid-column: 1 / 4;
+    padding: 20px;
+}
