@@ -1,0 +1,46 @@
+@media screen and (min-width:600px) {
+
+    header {
+        background-color: #B4D2BA;
+        color: black;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .container {
+        margin: 2rem auto;
+        max-width: 850px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 25px;
+        place-items: center;
+    }
+
+    img { 
+        width: 100%; 
+        height: auto;
+        margin: .5rem;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+
+}
