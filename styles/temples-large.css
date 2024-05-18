@@ -3,15 +3,11 @@
     header {
         background-color: #B4D2BA;
         color: black;
-    }
-
-    .navigation {
-        flex-direction: row;
+        display: flex;
     }
 
     .navigation a {
         display: block;
-        flex: 1 1 100%;
     }
 
     h2 {
