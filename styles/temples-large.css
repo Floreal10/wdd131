@@ -4,10 +4,18 @@
         background-color: #B4D2BA;
         color: black;
         display: flex;
+        justify-content: space-between;
     }
 
     .navigation a {
-        display: block;
+		display: block;
+		flex: 1 1 100%;
+        
+	}
+
+    .navigation ul {
+        flex-direction: row;
+
     }
 
     h2 {
