@@ -22,10 +22,7 @@ const windChill = document.getElementById('windchill');
 const temp = 48;
 const windSpeed = 4;
 
-
-const windChillResult = calculateWindChill(temp,windSpeed);
-
-windChill.textContent = windChillResult; 
+windChill.textContent = calculateWindChill(temp,windSpeed);
 
 
 
