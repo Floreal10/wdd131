@@ -39,7 +39,7 @@ text-align: center;
     align-items: center;
 }
 
-#data-table {
+#data-table, #data-table2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +52,8 @@ text-align: center;
     padding-right: 10px;
     font-weight: bold;
 }
+
+
 
 
     
