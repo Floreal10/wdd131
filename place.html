@@ -22,27 +22,91 @@
     <main>
         <div class="hero">
             <picture>
-              <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
-              <img src="images/hero-small.webp" alt="Mountains of Chile" width="600" height="625">
+              <source srcset="images/hero-large.webp" media="(min-width: 501px)">
+              <img src="images/hero-small.webp" alt="Mountains of Chile" width="500">
             </picture>
         </div>
 
         <section class="data">
             <h2>Data</h2>
 
+            <table id="data-table">
+                <tbody>
+                    <tr>
+                        <td class="table-title">Area: </td>
+                        <td>756,101.96 km2</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Population: </td>
+                        <td>19.60 million</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Capital: </td>
+                        <td>Santiago</td>
+                    <tr>
+                        <td class="table-title">Language: </td>
+                        <td>Spanish</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Currency: </td>
+                        <td>Chilean pesos</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Time Zone: </td>
+                        <td>UTC-4</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Calling Code: </td>
+                        <td> +56</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">Internet TLD: </td>
+                        <td>.Cl</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section class="weather">
+
+            <h2>Weather</h2>
+
+            <img src="images/weather-icon.svg" alt="weather-icon">
             
+            <table id="data-table">
+
+                <tbody>
+
+                    <tr>
+                        <td class="table-title">Temperature: </td>
+                        <td id="Temperature"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="table-title">Conditions: </td>
+                        <td>Mostly cloudy</td>
+                    </tr>
+
+                    <tr>
+                        <td class="table-title">Wind: </td>
+                        <td>8 Km/h</td>
+                    </tr>
+
+                    <tr>
+                        <td class="table-title">Wind chill: </td>
+                        <td id="windchill"></td>
+                    </tr>
+                   
+                   
+                </tbody>
+            </table>
+
+
 
 
 
         </section>
-
-
-
-
-
-
-
-
 
 
     </main>
