@@ -13,6 +13,11 @@
 :root {
     --heading-font: Tenor Sans, sans-serif;
     --paragrph-font: Tenor Sans , sans-serif;
+
+    --primary-color: #DCE2AA;
+    --secondary-color: #4B543B;
+    --accent1-color: #B4D2BA;
+    --accent2-color: lightgray;
 }
 
 header {
