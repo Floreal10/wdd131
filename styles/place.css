@@ -12,12 +12,8 @@
 
 :root {
     --heading-font: Tenor Sans, sans-serif;
-    --paragrph-font: Tenor Sans , sans-serif;
+    --paragrph-font: Tenor Sans , serif;
 
-    --primary-color: #DCE2AA;
-    --secondary-color: #4B543B;
-    --accent1-color: #B4D2BA;
-    --accent2-color: lightgray;
 }
 
 header {
@@ -26,8 +22,13 @@ header {
   background-color: rgb(70, 133, 228);
 }
 
+h1 {
+    font-style: var(--heading-font);
+}
+
 .data h2 {
-text-align: center;
+    text-align: center;
+    font-style: var(--paragrph-font);
 }
 
 .weather h2 {
