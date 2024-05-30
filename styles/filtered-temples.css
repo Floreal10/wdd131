@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.tenor-sans-regular {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #DCE2AA;
+    --secondary-color: #4B543B;
+    --accent1-color: #B4D2BA;
+    --accent2-color: lightgray;
+    
+    --heading-font: Tenor Sans, serif;
+    --paragrph-font: Tenor Sans , serif;
+}
+
+header {
+    background-color:var(--accent1-color);
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    color: black;
+    display: none;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation a:hover {
+	background-color: #bbb;
+}
+
+.open a {
+	display: block;
+}
+
+main {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.container {
+    margin: 2rem auto;
+}
+
+img { 
+    width: 100%; 
+    height: auto;
+    margin: .5rem;
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+footer {
+    color: black;
+    background: var(--accent1-color);
+    text-align: center;
+    grid-column: 1 / 4;
+    padding: 20px;
+}
+
