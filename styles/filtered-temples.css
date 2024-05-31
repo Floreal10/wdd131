@@ -90,13 +90,11 @@ h2 {
 img { 
     width: 100%; 
     height: auto;
-    margin: .5rem;
 }
 
 figcaption {
     text-align: center;
 }
-
 
 footer {
     color: black;
@@ -104,6 +102,22 @@ footer {
     text-align: center;
     grid-column: 1 / 4;
     padding: 20px;
+}
+
+section {
+    background: beige;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+section img {
+    padding-top: 1rem;
+}
+
+span.label {
+    color: rgb(50, 15, 90);
+    font-weight: bold;
 }
 
 
@@ -146,7 +160,6 @@ footer {
     img { 
         width: 100%; 
         height: auto;
-        margin: .5rem;
     }
 
     figcaption {
@@ -155,6 +168,10 @@ footer {
 
     #menu {
         display: none;
+    }
+
+    section {
+        height: 240px;
     }
 
 }
