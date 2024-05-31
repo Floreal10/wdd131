@@ -96,4 +96,66 @@ const temples = [
 		imageUrl:
 		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rio-de-janeiro-brazil/400x250/1-001db7326e638032470a02813c9e47191ef74b0e.jpeg"	
 	},
-  ];
+];
+
+function createTempleCard(filteredTemples) {
+	filteredTemples.forEach (temple => {
+	let card = document. createElement("section");
+	let name = document. createElement("h3");
+	let location = document. createElement("p");
+	let dedication = document.createElement("p");
+	let area = document.createElement("p");
+	let img = document. createElement("img");
+	
+	name.textContent = temple.templeName;
+	location.innerHTML = `<span class="label">Location:</span> ${temple.location}`;
+	dedication.innerHTML = `<span class="label">Dedicated:</span>  ${temple.dedicated}`;
+	area.innerHTML = `<span class="label">Size:</span> ${temple.area} sq ft`;
+
+	img.setAttribute("src", temple.imageUrl);
+	img.setAttribute("alt", `${temple.templeName} Temple`);
+	img.setAttribute("loading", "lazy");
+	
+	card.appendChild(name);
+	card.appendChild(location);
+	card.appendChild(dedication);
+	card.appendChild(area);
+	card.appendChild(img);
+	
+	document.querySelector(".container-temples").appendChild(card);
+
+	});
+}
+
+createTempleCard(temples);
+
+const home = document.querySelector("#Home");
+home.addEventListener('click', () => {
+  	document.querySelector(".container-temples").innerHTML = "";
+	createTempleCard(temples);
+});
+
+const oldTemples = document.querySelector("#Old");
+oldTemples.addEventListener('click', () => {
+	document.querySelector(".container-temples").innerHTML = "";
+	createTempleCard(temples.filter(temple => temple.dedicated.substring(0, 4) < 2000));
+});
+
+
+const largeTemples = document.querySelector("#Large");
+largeTemples.addEventListener('click', () => {
+	document.querySelector(".container-temples").innerHTML = "";
+	createTempleCard(temples.filter(temple => temple.area > 90000));
+});
+
+const smallTemples = document.querySelector("#Small");
+smallTemples.addEventListener('click', () => {
+	document.querySelector(".container-temples").innerHTML = "";
+	createTempleCard(temples.filter(temple => temple.area < 20000));
+});
+
+const newTemples = document.querySelector("#New");
+newTemples.addEventListener('click', () => {
+	document.querySelector(".container-temples").innerHTML = "";
+  	createTempleCard(temples.filter(temple => temple.dedicated.substring(0, 4) > 2000));
+});
