@@ -26,7 +26,7 @@ const temples = [
 	},
 	{
 	  templeName: "Manti Utah",
-	  location: "Manti, Utah, United States",
+	  location: "Manti, Utah, USA",
 	  dedicated: "1888, May, 21",
 	  area: 74792,
 	  imageUrl:
@@ -34,7 +34,7 @@ const temples = [
 	},
 	{
 	  templeName: "Payson Utah",
-	  location: "Payson, Utah, United States",
+	  location: "Payson, Utah, USA",
 	  dedicated: "2015, June, 7",
 	  area: 96630,
 	  imageUrl:
@@ -50,7 +50,7 @@ const temples = [
 	},
 	{
 	  templeName: "Washington D.C.",
-	  location: "Kensington, Maryland, United States",
+	  location: "Kensington, USA",
 	  dedicated: "1974, November, 19",
 	  area: 156558,
 	  imageUrl:
@@ -74,7 +74,7 @@ const temples = [
 	},
 	{
 		templeName: "Bogotá Colombia Temple",
-		location: "Bogotá Distrito Capital, Colombia",
+		location: "Bogotá Distrito, Colombia",
 		dedicated: "1999, April, 24",
 		area: 53500,
 		imageUrl:
@@ -82,7 +82,7 @@ const temples = [
 	},
 	{
 		templeName: "Lubbock Texas Temple",
-		location: "Lubbock, Texas, United States",
+		location: "Lubbock, Texas, USA",
 		dedicated: "2002, April, 21",
 		area: 16498,
 		imageUrl:

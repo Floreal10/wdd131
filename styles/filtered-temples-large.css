@@ -15,7 +15,6 @@
 
     .navigation ul {
         flex-direction: row;
-
     }
 
     h2 {
@@ -32,7 +31,7 @@
     }
 
     img { 
-        width: 100%; 
+        max-width: 100%; 
         height: auto;
     }
 
@@ -45,7 +44,7 @@
     }
 
     section {
-        height: 240px;
+        width: 90%;
     }
 
 }
