@@ -22,7 +22,7 @@
         text-align: center;
     }
 
-    .container {
+    .container-temples {
         margin: 2rem auto;
         max-width: 850px;
         display: grid;
@@ -34,7 +34,6 @@
     img { 
         width: 100%; 
         height: auto;
-        margin: .5rem;
     }
 
     figcaption {
@@ -43,6 +42,10 @@
 
     #menu {
         display: none;
+    }
+
+    section {
+        height: 240px;
     }
 
 }
