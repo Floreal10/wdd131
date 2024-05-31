@@ -138,7 +138,7 @@ home.addEventListener('click', () => {
 const oldTemples = document.querySelector("#Old");
 oldTemples.addEventListener('click', () => {
 	document.querySelector(".container-temples").innerHTML = "";
-	createTempleCard(temples.filter(temple => temple.dedicated.substring(0, 4) < 2000));
+	createTempleCard(temples.filter(temple => temple.dedicated.substring(0, 4) < 1900));
 });
 
 
@@ -151,7 +151,7 @@ largeTemples.addEventListener('click', () => {
 const smallTemples = document.querySelector("#Small");
 smallTemples.addEventListener('click', () => {
 	document.querySelector(".container-temples").innerHTML = "";
-	createTempleCard(temples.filter(temple => temple.area < 20000));
+	createTempleCard(temples.filter(temple => temple.area < 10000));
 });
 
 const newTemples = document.querySelector("#New");
