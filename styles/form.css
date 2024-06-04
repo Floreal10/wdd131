@@ -88,11 +88,10 @@ input[type="radio"] {
     padding-bottom: 1rem;
 }
 
-#text-area { 
+#written { 
     width: 100%;
 	height: 100px;
     margin-top: 10px;
-
 }
 
 #product-opt, #date-installation, #username {
