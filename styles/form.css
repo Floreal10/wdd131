@@ -115,3 +115,14 @@ footer {
     grid-column: 1 / 4;
     padding: 20px;
 }
+
+.after-form {
+    display: block;
+    width: 300px;
+    max-width: 400px;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 600px;
+    line-height: 2.0;
+}
+
