@@ -19,34 +19,48 @@
     </header>
 
     <main>
-       <form method="get" action="review.htm">
+       <form method="get" action="review.htm" class="rf">
             <fieldset>
                 
-                <label>Product Name*
-                    <select name="product" id="product" required>
-                        <option disabled selected value="">Select a Product</option>
-                    
-                    </select> 
-                </label>
+                <div>Product Name*
+                    <label>
+                        <select name="product" id="product" required>
+                            <option disabled selected value="">Select a Product</option>
+                        </select> 
+                    </label>
+                </div>
+
+                <div>Overall Rating*</div>
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+
+                <div>Date of Installation
+                <label><input type="date" id="date-installation" name="date-installation" required></label>
+                </div>
+
+                <div>Wich features did you find useful in the product? (check all that apply)</div>
+                <label><input type="checkbox" id="durability" name="durability" value="durability"> Durability</label>
+                <label><input type="checkbox" id="use" name="use" value="ease of use"> Ease of Use</label>
+                <label><input type="checkbox" id="performance" name="performance" value="performance"> Performance</label>
+                <label><input type="checkbox" id="design" name="design" value="desing"> Design</label>
+
+                <div>Written Review (optional)</div>
+                <input type="text" id="text-area" name="text-area">
+                
+
+                <div> Your Name (optional)
+                    <label><input type="text" id="username" name="username"></label>
+                </div>
+
+
+                <input type="submit" value="Product Review">
 
             </fieldset>
-
-            <div class="stars">
-                <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
-                <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
-                <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
-                <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
-                <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
-            </div>
-
-
-
-
-
-
-
-
-
 
         </form>
 
