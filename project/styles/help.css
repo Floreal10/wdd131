@@ -30,6 +30,10 @@ header {
     padding: 20px;
 }
 
+header img {
+    max-width: 10%;
+}
+
 #menu {
 	font-size: 1.5rem;
 	border: 0;
@@ -85,6 +89,20 @@ main {
     font-family: "Roboto";
     background: var(--accent1-color);
 }
+
+.team img {
+    width: 400px;
+}
+
+.team, .questions {
+    padding: 1rem;
+    text-align: center;
+}
+
+.team p {
+    padding: 1rem;
+}
+
 
 
 footer {
