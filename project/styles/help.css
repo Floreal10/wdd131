@@ -30,10 +30,6 @@ header {
     padding: 20px;
 }
 
-header img {
-    max-width: 10%;
-}
-
 #menu {
 	font-size: 1.5rem;
 	border: 0;
