@@ -105,8 +105,8 @@ h3 {
     text-align: center;
     padding: 1rem;
     background: var(--secondary-color);
-    border-radius: 10px;
-    width: 400px;
+    border-radius: 20px;
+    width: 250px;
 }
 
 .excited {
