@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LetGoHiking</title>
+    <title>LetsGoHike</title>
     <meta name="description" content="Project of hiking wbsite for WDD 131 - Dynamic Web Fundamentals">
     <meta name="author" content="Floreal Ayuso">
     <link rel="stylesheet" href="styles/home.css">
@@ -15,14 +15,76 @@
 <body>
     
     <header>
-       
+        <h1>Let's Go Hike</h1>
+        
+        <button id="menu" title="menu-button"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="Trips">Trips</a></li>
+                <li><a href="#" title="Help">Help</a></li>
+            </ul>
+        </nav>
     </header>
   
     <main>
 
+        <div class="twoimg">
+            <picture>
+              <source srcset="images/twoimg-large.webp" media="(min-width: 501px)">
+              <img src="images/twoimg-small.webp" alt="Mountains of Chile" width="500">
+            </picture>
+        </div>
+
+        <div class="about">
+
+            <h2>what is hiking?</h2>
+
+            <p>Walking in nature as a recreational activity</p>
+
+            <p>Is an peacefull and exciting activity where ither you are alone or with friends you are going to enjoy your time. Is the opportunity to be closer to the nature, explore and apreciate the beatiful views that our planet has.</p>
+
+        </div>
+
+        <div class="views">
+
+            <h2>Amazing views and landscapes</h2>
+
+            <figure>
+                <img src="images/image1.webp" alt="image1"  loading="lazy">
+                <figcaption>Flowers and Mountains</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/image2.webp" alt="image2" loading="lazy">
+                <figcaption>Three Path</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/image3.webp" alt="image3" loading="lazy">
+                <figcaption>Small Lake</figcaption>
+            </figure>
+
+        </div>
+
     </main>
 
     <footer>
+        <p>Let's Go Hike </p>
+        <p> &#169;2024 Floreal Ayuso </p>
+
+        <nav class="sociallinks">
+
+            <a href="https://facebook.com">
+                <img src="images/facebooklogo.webp" alt="Facebook" width="25">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twtter.webp" alt="Twitter" width="25">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram" width="25">
+            </a>
+        </nav>
        
     </footer>
 
