@@ -87,7 +87,6 @@ main {
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin: .5rem;
 }
 
 .views img {
@@ -149,6 +148,10 @@ footer p {
         margin: .5rem;
     }
 
+    .about {
+        display: block;
+        
+    }
 
 
 
