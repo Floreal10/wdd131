@@ -86,15 +86,25 @@ main {
     background: var(--accent1-color);
 }
 
-
+h3 {
+    text-align: center;
+    display: block;
+}
 
 .team img {
     width: 400px;
+    border: solid black;
+    border-radius: 1%;
 }
 
-.team, .questions, h2 {
+.team, .questions, h3 {
     padding: 1rem;
     text-align: center;
+}
+
+h2 {
+    padding: 1rem;
+    background: var(--secondary-color);
 }
 
 .team p {
@@ -102,6 +112,7 @@ main {
 }
 
 .moreinfo {
+    padding: 1rem;
     background: var(--secondary-color);
 }
 
