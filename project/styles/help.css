@@ -83,20 +83,7 @@ main {
     background: var(--accent1-color);
 }
 
-.about, .views{
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
 
-.views img {
-    max-width: 400px;
-    height: auto;
-}
-
-.views figure{
-    padding-top: 1rem;
-}
 
 footer {
     color: var(--accent2-color);
@@ -105,7 +92,6 @@ footer {
     grid-column: 1 / 4;
     padding: 20px;
 }
-
 
 
 @media screen and (min-width:501px) {
@@ -132,15 +118,7 @@ footer {
         display: none;
     }
 
-    .twoimg img {
-        width: 100%; 
-        height: auto;
-        margin: .5rem;
-    }
-
-    .about {
-        display: block;
-    }
+    
 
 
 
