@@ -11,12 +11,72 @@
 }
 
 :root {
-    --primary-color: #DCE2AA;
-    --secondary-color: #4B543B;
-    --accent1-color: #B4D2BA;
-    --accent2-color: lightgray;
+    --primary-color: #556F44;
+    --secondary-color: #ABC8C0;
+    --accent1-color: #D9D9D9;
+    --accent2-color: #FBFCFF;
     
-    --heading-font: Roboto, serif;
-    --paragrph-font: Roboto , serif;
+    
+    --heading-font: "Roboto";
+    --paragrph-font: sans-serif;
 }
   
+h1 {
+    font-family: "roboto";
+    color: var(--accent2-color);
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+main {
+    font-family: sans-serif;
+    background-color: var(--accent1-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.reason {
+    display: block;
+    width: 600px;
+    padding: 1rem;
+}
+
+.purpose {
+    background: var(--secondary-color);
+    display: block;
+    width: 600px;
+    padding: 1rem;
+}
+
+
+.scenarios {
+    display: block;
+    width: 600px;
+    padding: 1rem;
+}
+
+.typography {
+    display: block;
+    width: 600px;
+    padding: 1rem;
+
+}
+
+.color {
+    display: block;
+    width: 600px;
+    padding: 1rem;
+}
+
+.wireframe {
+    display: block;
+    width: 600px;
+    padding: 1rem;
+}
+
+.wireframe img {
+    padding: 10px
+}
