@@ -86,11 +86,13 @@ main {
     background: var(--accent1-color);
 }
 
+
+
 .team img {
     width: 400px;
 }
 
-.team, .questions {
+.team, .questions, h2 {
     padding: 1rem;
     text-align: center;
 }
@@ -99,7 +101,9 @@ main {
     padding: 1rem;
 }
 
-
+.moreinfo {
+    background: var(--secondary-color);
+}
 
 footer {
     font-family: "Roboto";
