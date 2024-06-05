@@ -102,6 +102,7 @@ main {
 }
 
 footer {
+    font-family: "Roboto";
     color: var(--accent2-color);
     background: var(--primary-color);
     text-align: center;
