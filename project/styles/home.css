@@ -90,7 +90,8 @@ main {
 }
 
 .views img {
-max-width: 500px;
+    max-width: 400px;
+    height: auto;
 }
 
 .views figure{
@@ -150,7 +151,7 @@ footer p {
 
     .about {
         display: block;
-        
+
     }
 
 
