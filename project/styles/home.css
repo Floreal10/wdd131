@@ -89,7 +89,7 @@ main {
     padding-bottom: 1rem;
 }
 
-.views img {
+.views figure img {
     max-width: 400px;
     height: auto;
 }
@@ -136,4 +136,10 @@ footer {
         height: auto;
         margin: .5rem;
     }
+
+    .views figure img {
+        max-width: 600px;
+        height: auto;
+    }
+
 }
