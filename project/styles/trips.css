@@ -93,8 +93,13 @@ main {
 h2 {
     font-family: sans-serif;
     padding: 1rem;
+    text-align: center;
+    padding-top: 2rem;
 }
 
+.opt {
+    text-align: center;
+}
 
 footer {
     font-family: "Roboto";
@@ -130,7 +135,11 @@ footer {
         display: none;
     }
 
-    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 
 
 
