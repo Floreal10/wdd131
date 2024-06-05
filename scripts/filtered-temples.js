@@ -159,4 +159,3 @@ smallTemples.addEventListener('click', () => {
 	createTempleCard(temples.filter(temple => temple.area < 10000));
 });
 
-
