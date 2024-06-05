@@ -88,18 +88,24 @@ main {
 
 .intro{
     text-align: center;
+    padding: 2rem;
 }
 
 h2 {
     font-family: sans-serif;
     padding: 1rem;
     text-align: center;
-    padding-top: 2rem;
 }
 
 .opt {
     text-align: center;
+    display: block;
+    background: var(--secondary-color);
+    margin: 1rem;
+    border-radius: 2%;
+    padding: 10px;
 }
+
 
 footer {
     font-family: "Roboto";

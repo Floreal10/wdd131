@@ -92,6 +92,11 @@ main {
     padding-bottom: 1rem;
 }
 
+.about h2 {
+    font-size: 200%;
+    padding: 1rem 1rem;
+}
+
 .views figure img {
     max-width: 400px;
     height: auto;
