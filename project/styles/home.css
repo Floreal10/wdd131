@@ -11,10 +11,10 @@
 }
 
 :root {
-    --primary-color: #556F44;
+    --primary-color: #35462B;
     --secondary-color: #ABC8C0;
     --accent1-color: #D9D9D9;
-    --accent2-color: #FBFCFF;
+    --accent2-color: #FFFFFF;
     
     
     --heading-font: "Roboto";
@@ -22,6 +22,7 @@
 }
 
 header {
+    font-family: sans-serif;
     color: var(--accent2-color);
     background: var(--primary-color);
     display: grid;
@@ -48,6 +49,7 @@ header {
 }
 
 .navigation {
+    font-family: sans-serif;
     display: flex;
     list-style: none;
     flex-direction: column;
@@ -80,6 +82,7 @@ h1 {
 }
 
 main {
+    font-family: "Roboto";
     background: var(--accent1-color);
 }
 
@@ -134,7 +137,6 @@ footer {
     .twoimg img {
         width: 100%; 
         height: auto;
-        margin: .5rem;
     }
 
     .views figure img {
