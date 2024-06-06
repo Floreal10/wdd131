@@ -105,6 +105,7 @@ h3 {
 h2 {
     padding: 1rem;
     background: var(--secondary-color);
+    border-radius: 2%;
 }
 
 .team p {
