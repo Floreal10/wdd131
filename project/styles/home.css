@@ -167,6 +167,8 @@ footer {
     .views figure img {
         max-width: 600px;
         height: auto;
+        border-radius: 1%;
+        border: solid 1px;
     }
 
 }
