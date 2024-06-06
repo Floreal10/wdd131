@@ -107,6 +107,15 @@ h2 {
 }
 
 
+.container-places img{
+    width: 499px;
+    height: auto;
+}
+
+.container-places p {
+    text-align: center;
+}
+
 footer {
     font-family: "Roboto";
     color: var(--accent2-color);
@@ -144,7 +153,26 @@ footer {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 2rem;
     }
+
+    .container-places {
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 25px;
+        place-items: center;
+        padding: 2rem;
+    }
+
+    .container-places img {
+        width: 300px;
+        margin: 10px;       
+        border-radius: 1%;
+        border: solid 1px;
+    }
+
+
 
 
 
